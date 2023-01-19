@@ -1,0 +1,29 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+form label {
+    font-size: 90px;
+}
+
+form input {
+    color: crimson;
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+}
+
+.info {
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.status {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(226, 149, 47);
+    font-size: 30px;
+}
