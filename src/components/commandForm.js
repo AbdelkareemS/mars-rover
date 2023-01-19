@@ -83,6 +83,7 @@ function CommandsForm({ initialX, initialY, initialHeading, obstacles }) {
                 type="text"
                 value={commands}
                 onChange={e => setCommands(e.target.value)}
+                onKeyDown={e => e.key ==='Backspace' ? setCommands('') : null}
             />
             <RoverValues x={x} y={y} heading={heading} focusX={focusX} focusY={focusY} />
             <p className='status'>{status}</p>
