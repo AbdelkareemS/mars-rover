@@ -1,6 +1,5 @@
 import './App.css';
 import CommandForm from './components/commandForm';
-import RoverValues from './components/roverValues';
 
 function App() {
   return (
